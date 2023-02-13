@@ -1,0 +1,35 @@
+.sidebar-container {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar-container {
+    min-width: 12vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 2em;
+    background: #151515;
+  }
+  .sidebar-container .sidebar-header span {
+    color: #FF0000;
+  }
+  .sidebar-container .sidebar-feed {
+    margin: 0.2em 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-container .sidebar-feed p {
+    color: #707070;
+  }
+  .sidebar-container .sidebar-feed a {
+    margin-top: 1em;
+    color: white;
+    font-size: 18px;
+  }
+  .sidebar-container .sidebar-feed a:hover {
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=sidebar.css.map */

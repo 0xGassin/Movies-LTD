@@ -1,0 +1,16 @@
+.homepage-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #1E1E1E;
+}
+.homepage-container .homepage-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}/*# sourceMappingURL=homepage.css.map */
